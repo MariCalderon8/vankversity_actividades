@@ -184,7 +184,7 @@ app.post('/ejercicio13', function (req, res) {
         "Status": "Transacción éxitosa",
         header: {
             contentType: contentType,
-            clientID: clientID
+            clientID: clienteID
         },
         numero: numero,
         monto: monto,
